@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\desafio.data\desafio.data.csproj" />
+    <ProjectReference Include="..\desafio.domain\desafio.domain.csproj" />
+  </ItemGroup>
+
+</Project>
