@@ -17,4 +17,9 @@
     <ProjectReference Include="..\desafio.service\desafio.service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="desafioDB.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
