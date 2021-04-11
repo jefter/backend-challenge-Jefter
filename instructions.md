@@ -1,15 +1,13 @@
-A aplicaÁ„o est· configurada na URL  http://localhost:49290/
+A aplica√ß√£o est√° configurada na URL  http://localhost:49290/
 
 
 SWAGGER:
 
 http://localhost:49290/swagger/index.html
 
-A vers„o utilizada do .NET CORE È 5.0 na API e .NET Stantard 2.1 nas bibliotecas de classes;
+A vers√£o utilizada do .NET CORE √© 5.0 na API e .NET Stantard 2.1 nas bibliotecas de classes;
 
-O arquivo de banco de dados est· na raiz do projeto desafio.api com o nome: desafioDB
-
-O arquivo de bando de dados utilzado nos testes unit·rio est· localizado na pasta desafio.serviceTests\bin\Debug\netcoreapp3.1\
+O arquivo de banco de dados est√° na raiz do projeto desafio.api com o nome: desafioDB
 
 
 Chamadas dos endpoint Pedido.
@@ -59,23 +57,23 @@ Chamada exemplo:
 
 curl -X POST "http://localhost:49290/api/Pedido" -H  "accept: */*" -H  "Content-Type: application/json" -d "{\"pedido\":\"99999\",\"itens\":[{\"descricao\":\"Descircao do item A\",\"precoUnitario\":10,\"qtd\":1},{\"descricao\":\"Descricao do item B\",\"precoUnitario\":5,\"qtd\":2}]}"
 
-ValidaÁıes existentes:
+Valida√ß√µes existentes:
 
-O cÛdigo do pedido n„o poder ser vazio
+O c√≥digo do pedido n√£o poder ser vazio
 
 A quantidade do tem que ser maior que zero
 
-A descriÁ„o do item È obrigatÛria
+A descri√ß√£o do item √© obrigat√≥ria
 
-O preÁo unit·rio tem que ser maior que zero
+O pre√ßo unit√°rio tem que ser maior que zero
 
-O cÛdigo do pedido È ˙nico.
+O c√≥digo do pedido √© √∫nico.
 
 +++++++++++++++++++++++++++++++++++++++++
 
 PUT
 
-Atualiza o preÁo unit·rio do item e a quantidade
+Atualiza o pre√ßo unit√°rio do item e a quantidade
 
 http://localhost:49290/api/Pedido
 
@@ -127,7 +125,7 @@ curl -X DELETE "http://localhost:49290/api/Pedido/8" -H  "accept: */*"
 
 GET - 
 
-Obtem um pedido pelo cÛdigo
+Obtem um pedido pelo c√≥digo
 
 
 http://localhost:49290/api/Pedido/123456
@@ -164,4 +162,4 @@ curl -X POST "http://localhost:49290/Status" -H  "accept: */*" -H  "Content-Type
 
 +++++++++++++++++++++++++++++++++++++++++++++++
 
-O projeto desafio.ServiceTest contÈm os testes unit·rios das mudanÁas de status
+O projeto desafio.ServiceTest cont√©m os testes unit√°rios das mudan√ßas de status
